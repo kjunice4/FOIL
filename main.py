@@ -108,7 +108,7 @@ Builder.load_string("""
                 size_hint_y: None
                 height: 200
                 padding: 10, 10
-                text: "Share KSquared-Mathematics ©"
+                text: "Share KSquared-Mathematics"
                     
             Image:
                 source: 'KSquared_QR.png'
@@ -141,7 +141,7 @@ Builder.load_string("""
                 size_hint_y: None
                 height: 200
                 padding: 10, 10
-                text: "What's new at KSquared-math?"
+                text: "What's new at KSquared-Mathematics?"
             
             Button:
                 id: steps
