@@ -1044,9 +1044,9 @@ sm.add_widget(FOIL(name="FOIL"))
 sm.current = "Homepage"   
 
 
-class FOIL(App):
+class FOIL_Calculator(App):
     def __init__(self, **kwargs):
-        super(FOIL, self).__init__(**kwargs)
+        super(FOIL_Calculator, self).__init__(**kwargs)
         Window.bind(on_keyboard=self._key_handler)
     
     def _key_handler(self, instance, key, *args):
@@ -1059,4 +1059,4 @@ class FOIL(App):
         return sm
 
 if __name__ == '__main__':
-    FOIL().run()
+    FOIL_Calculator().run()
